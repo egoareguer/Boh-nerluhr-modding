@@ -1,0 +1,8 @@
+{
+    "elements": [
+		{
+			"id": "tincture.labhitic",
+			"aspects$add": {"liquid":1}
+		}
+    ]
+}

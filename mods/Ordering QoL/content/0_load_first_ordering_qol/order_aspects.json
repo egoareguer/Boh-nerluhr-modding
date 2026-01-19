@@ -1,0 +1,157 @@
+{
+	"elements": [
+        {
+            "id":"orderplaced.mushrooms", "label":"Ordered Mushrooms", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.mushrooms","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.mushrooms", "label":"Contains something squishy", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"mushrooms","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+		
+		
+        {
+            "id":"orderplaced.rosehips", "label":"Ordered Rosehips", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.rosehips","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.rosehips", "label":"Contains something squishy", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"rosehips","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+		
+        {
+            "id":"orderplaced.blackberries", "label":"Ordered Blackberries", "isAspect": true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.blackberries","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.blackberries", "label":"Contains something squishy", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"blackberries","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+		
+        {
+            "id":"orderplaced.pumpkin.amber", "label":"Ordered Amber Pumpkin", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.pumpkin.amber","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.pumpkin.amber", "label":"Contains something hard", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"pumpkin.amber","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.pumpkin.amber.soft", "label":"Ordered Soft Amber Pumpkin", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.pumpkin.amber.soft","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.pumpkin.amber.soft", "label":"Contains something hard and soft", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"pumpkin.amber.x","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.mackerel", "label":"Ordered Mackerel", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.mackerel","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.mackerel", "label":"Contains something hard", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"mackerel","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.pilchard", "label":"Ordered Pilchard", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.pilchard","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.pilchard", "label":"Contains something hard", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"pilchards","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.egg.chicken", "label":"Ordered Hen's Egg", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.egg.chicken","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.egg.chicken", "label":"Contains something hard and fragile", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"egg.chicken","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+        
+        {
+            "id":"orderplaced.veg.basket.apples", "label":"Ordered Basket of Apples", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.veg.basket.apples","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.veg.basket.apples", "label":"Contains something hard and multitudinous", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"veg.basket.apples","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.veg.basket", "label":"Ordered Basket of Vegetables", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.veg.basket","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.veg.basket", "label":"Contains something hard and multitudinous", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"veg.basket","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.cordial.elderflower", "label":"Ordered Elderflower Cordial", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.cordial.elderflower","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.cordial.elderflower", "label":"Contains something fragile", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"cordial.elderflower","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.pottery.scrumpy", "label":"Ordered Scrumpy", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.pottery.scrumpy","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.pottery.scrumpy", "label":"Contains something fragile", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"pottery.scrumpy","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.bottle.sloegin", "label":"Ordered Sloe Gin", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.bottle.sloegin","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.bottle.sloegin", "label":"Contains something fragile", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"bottle.sloegin","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.bottle.dandelionwine", "label":"Ordered Bottle of Dandelion Wine", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.bottle.dandelionwine","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.bottle.dandelionwine", "label":"Contains something fragile", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"bottle.dandelionwine","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.jerry.paraffin", "label":"Ordered Paraffin", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.jerry.paraffin","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.jerry.paraffin", "label":"Contains something sloshing", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"jerry.paraffin","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.jerry.petrol", "label":"Ordered Petrol", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.jerry.petrol","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.jerry.petrol", "label":"Contains something sloshing", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"jerry.petrol","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        },
+
+        {
+            "id":"orderplaced.jerry.kerosene", "label":"Ordered Kerosene", "isAspect":true, "icon":"orderplaced",
+            "xtriggers":{"provisioning":[{"id":"contains.jerry.kerosene","morpheffect":"mutate","level":"^"}]}
+        },
+        {
+            "id":"contains.jerry.kerosene", "label":"Contains something sloshing", "isAspect":true, "icon":"contains",
+            "xtriggers":{"unwrapping":[{"id":"jerry.kerosene","morpheffect":"spawn","level":"^"},{"id":"^","morpheffect":"mutate","level":-1}]}
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "elements": [
+		{
+			"id": "azoth",
+			"aspects$add": {"device":1,"tool":1}
+		},
+        {
+			"id": "tanglebrag",
+			"aspects$add": {"leaf":1}
+		},
+        {
+			"id": "tincture.labhitic",
+			"aspects$add": {"liquid":1}
+		}
+    ]
+}

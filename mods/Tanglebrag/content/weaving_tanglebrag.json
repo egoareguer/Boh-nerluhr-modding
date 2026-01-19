@@ -1,0 +1,15 @@
+{
+	"recipes": [
+        {	"id":"craft.scholar.weaving.knotworking_tanglebrag_Frith-Weft.tanglegrag_Frith-Weft",	
+            "Label": "Craft: Frith-Weft",	
+            "actionid": "library.*",	
+            "reqs": {"ability":1, "s.weaving.knotworking":1, "tanglebrag":1, "moth": 10	},	
+            "effects": {	"frithweft":1	},	
+            "aspects":{"fatiguing":1},	
+            "StartDescription": "A peculiar mothy weaving technique, suitable as long as you don't mind undertones of humus. \n\n[Weaving & Knotworking with Scholar-level <sprite name=moth>, plus Tanglebrag, creates Frith-Weft.]",	
+            "Desc": "[With Keeper-level Heart - not Moth - Frith-Weft is a precursor to Swaddled Thunder.]"	,
+            "warmup":90, 
+            "craftable":true
+        }
+	]
+}

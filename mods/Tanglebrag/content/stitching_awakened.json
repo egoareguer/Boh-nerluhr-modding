@@ -1,0 +1,15 @@
+{
+	"recipes": [
+        {	"id":"craft.scholar.stitching.binding_awakened_Frith-Weft.awakened_Frith-Weft",	
+            "Label": "Craft: Frith-Weft",	
+            "actionid": "library.*",	
+            "reqs": {"ability":1, "s.stitching.binding":1, "awakened.feather":1, "sky": 10	},	
+            "effects": {	"frithweft":1	},	
+            "aspects":{"fatiguing":1},	
+            "StartDescription": "Use the feather to conduct a peaceful weave. \n\n[Stitching & Binding with Scholar-level <sprite name=sky>, plus Awakened Feather, creates Frith-Weft.]",	
+            "Desc": "[With Keeper-level Heart - not Sky - Frith-Weft is a precursor to Swaddled Thunder.]"	,
+            "warmup":90, 
+            "craftable":true
+        }
+	]
+}

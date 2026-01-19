@@ -1,0 +1,47 @@
+{
+	"recipes": [
+        {	"id":"craft.scholar.solutions.separations_beverage_leathy.beverage_leathy",	
+            "Label": "Craft: Leathy",	
+            "actionid": "library.*",	
+            "reqs": {"ability":1, "s.solutions.separations":1,	"beverage":1,	"moth":	10	},	
+            "effects": {	"leathy":1	},	
+            "aspects":{"fatiguing":1},	
+            "StartDescription": "Brew a Moth-Liquor. \n\n[Solutions & Separations with Scholar-level <sprite name=moth>, plus Beverage, creates Leathy.]",	
+            "Desc": "[With Keeper-level Nectar - not Moth - Leathy is a precursor to the Great Ink Marakat.]"	,
+            "warmup":90, 
+            "craftable":true
+        },
+        {	"id":"craft.scholar.weaving.knotworking_tanglebrag_Frith-Weft.tanglegrag_Frith-Weft",	
+            "Label": "Craft: Frith-Weft",	
+            "actionid": "library.*",	
+            "reqs": {"ability":1, "s.weaving.knotworking":1, "tanglebrag":1, "moth": 10	},	
+            "effects": {	"frithweft":1	},	
+            "aspects":{"fatiguing":1},	
+            "StartDescription": "A peculiar mothy weaving technique, suitable as long as you don't mind undertones of humus. \n\n[Weaving & Knotworking with Scholar-level <sprite name=moth>, plus Tanglebrag, creates Frith-Weft.]",	
+            "Desc": "[With Keeper-level Heart - not Moth - Frith-Weft is a precursor to Swaddled Thunder.]"	,
+            "warmup":90, 
+            "craftable":true
+        },
+        {	"id":"craft.scholar.stitching.binding_awakened_Frith-Weft.awakened_Frith-Weft",	
+            "Label": "Craft: Frith-Weft",	
+            "actionid": "library.*",	
+            "reqs": {"ability":1, "s.stitching.binding":1, "awakened.feather":1, "sky": 10	},	
+            "effects": {	"frithweft":1	},	
+            "aspects":{"fatiguing":1},	
+            "StartDescription": "Use the feather to conduct a peaceful weave. \n\n[Stitching & Binding with Scholar-level <sprite name=sky>, plus Awakened Feather, creates Frith-Weft.]",	
+            "Desc": "[With Keeper-level Heart - not Sky - Frith-Weft is a precursor to Swaddled Thunder.]"	,
+            "warmup":90, 
+            "craftable":true
+        },
+        {	"id":"craft.scholar.transformations.liberations_remains_human.hair_moth",	
+        "Label": "Craft: Human Hair",	
+        "actionid": "library.*",	
+        "reqs": {"ability":1,"s.transformations.liberations":1,	"remains":1,	"moth":	10	},	
+        "effects": {	"human.hair":1	},	
+        "aspects":{"fatiguing":1},	
+        "StartDescription": "Transform remains into something of interest to crude sorcerers. \n\n[Transformations & Liberations with Scholar-level <sprite name=moth>, plus Remains, creates Human Hair.]",	
+        "Desc": "[With Scholar-level Grail, Human Hair can be woven into something almost living.]"	,
+        "warmup":90, 
+        "craftable":true}
+	]
+}

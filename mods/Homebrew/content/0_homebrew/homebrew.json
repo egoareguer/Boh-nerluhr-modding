@@ -1,0 +1,92 @@
+{
+	"recipes": [
+		{
+			"id": "cook.homebrew.scrumpy",
+			"inherits": "_cook",
+			"aspects": {"fatiguing": 1},
+			"label": "Ferment Scrumpy",
+			"startdescription": "Press apples into a rough cider.",
+			"desc": "Cloudy, with that distinctive West Country tang.",
+			"reqs": {"veg.basket.apples": 1},
+			"effects": {"pottery.scrumpy": 1},
+			"craftable": true
+		},
+		{
+			"id": "cook.homebrew.sloegin",
+			"inherits": "_cook",
+			"aspects": {"fatiguing": 1},
+			"label": "Distill Sloe Gin",
+			"startdescription": "Distill a dark, fruity liqueur.",
+			"desc": "The scent is mouthwatering. But don't overindulge.",
+			"reqs": {"plums": 1, "sugar": 1},
+			"effects": {"bottle.sloegin": 1},
+			"craftable": true
+		},
+		{
+			"id": "cook.homebrew.flowerwine.agave",
+			"inherits": "_cook",
+			"aspects": {"fatiguing": 1},
+			"label": "Ferment Dandelion Wine",
+			"startdescription": "Ferment a distinctly floral wine.",
+			"desc": "Bottled summer.",
+			"reqs": {"grapes": 1, "agave.aeterna": 1},
+			"effects": {"bottle.dandelionwine": 1},
+			"craftable": true
+		},
+		{
+			"id": "cook.homebrew.flowerwine.aglaophotis",
+			"inherits": "_cook",
+			"aspects": {"fatiguing": 1},
+			"label": "Ferment Dandelion Wine",
+			"startdescription": "Ferment a distinctly floral wine.",
+			"desc": "Bottled summer.",
+			"reqs": {"grapes": 1, "aglaophotis": 1},
+			"effects": {"bottle.dandelionwine": 1},
+			"craftable": true
+		},
+		{
+			"id": "cook.homebrew.flowerwine.chalice",
+			"inherits": "_cook",
+			"aspects": {"fatiguing": 1},
+			"label": "Ferment Dandelion Wine",
+			"startdescription": "Ferment a distinctly floral wine.",
+			"desc": "Bottled summer.",
+			"reqs": {"grapes": 1, "fragrant.chalice": 1},
+			"effects": {"bottle.dandelionwine": 1},
+			"craftable": true
+		},
+		{
+			"id": "cook.homebrew.flowerwine.jasmine",
+			"inherits": "_cook",
+			"aspects": {"fatiguing": 1},
+			"label": "Ferment Dandelion Wine",
+			"startdescription": "Ferment a distinctly floral wine.",
+			"desc": "Bottled summer.",
+			"reqs": {"grapes": 1, "honeyscar.jasmine": 1},
+			"effects": {"bottle.dandelionwine": 1},
+			"craftable": true
+		},
+		{
+			"id": "cook.homebrew.flowerwine.orchid",
+			"inherits": "_cook",
+			"aspects": {"fatiguing": 1},
+			"label": "Ferment Dandelion Wine",
+			"startdescription": "Ferment a distinctly floral wine.",
+			"desc": "Bottled summer.",
+			"reqs": {"grapes": 1, "moth.orchid": 1},
+			"effects": {"bottle.dandelionwine": 1},
+			"craftable": true
+		},
+		{
+			"id": "cook.homebrew.flowerwine.lily",
+			"inherits": "_cook",
+			"aspects": {"fatiguing": 1},
+			"label": "Ferment Dandelion Wine",
+			"startdescription": "Ferment a distinctly floral wine.",
+			"desc": "Bottled summer.",
+			"reqs": {"grapes": 1, "trumpeters.lily": 1},
+			"effects": {"bottle.dandelionwine": 1},
+			"craftable": true
+		}
+	]
+}

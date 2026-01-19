@@ -1,0 +1,20 @@
+{
+    "elements": [
+		{
+            "ID": "key.hush.house",
+            "inherits": "_device",
+            "aspects$add": {
+                "knock": 2,
+                "boost.knock": 2,
+                "winter": 2,
+                "boost.winter": 2
+            }
+        },
+        {
+            "ID": "glasses.librarian",
+            "aspects$add": {
+                "tool": 1
+            }
+        }
+    ]
+}

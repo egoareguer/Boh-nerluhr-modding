@@ -1,0 +1,277 @@
+{
+    "recipes": 
+[
+        {
+        "id": "tcat_gather.garden.v.autumn",
+        "$priority":10,
+        "actionid": "garden.plot.v.*",
+        "startdescription": "Pumpkins and apples are in season.\n\n[This will yield a Sack of Vegetables. Consider it with a sepcific soul to reveal the contents. Considering with Health or Chor will Always consume it.",
+        "inherits":"_gather.autumn",
+        "effects":{"sack.vegetables":1}
+        },
+        {
+        "id": "tcat_gather.garden.v.spring",
+        "$priority":10,
+        "actionid": "garden.plot.v.*",
+        "startdescription": "Marrows, leeks, and onions are in season.\n\n[This will yield a Basket of Vegetables. Consider it with a sepcific soul to reveal the contents. Considering with Health or Chor will Always consume it.]",
+        "inherits":"_gather.spring",
+        "effects":{"veg.basket":1}
+        },
+        {
+        "id": "tcat_gather.garden.v.summer",
+        "$priority":10,
+        "actionid": "garden.plot.v.*",
+        "startdescription": "Marrows, leeks, and onions are in season.\n\n[This will yield a Basket of Vegetables. Consider it with a sepcific soul to reveal the contents. Considering with Health or Chor will Always consume it.]",
+        "inherits":"_gather.summer",
+        "effects":{"veg.basket":1}
+        },   
+        {
+        "id": "craft.tcat_sack.vegetables.pumpkin_met",
+        "$priority":5,
+        "Label": "Open A Basket of Vegetables With My Mettle",
+        "actionid": "consider",
+        "reqs": {
+            ".met": 1,
+            "fatigued":-1,
+            "sack.vegetables": 1
+        },
+        "effects": {
+            "veg.pumpkin": 2
+        },
+        "aspects": {
+            "fatiguing": 1
+        },
+        "StartDescription": "This one is filled with pumpkins \n\n[Considering a Sack of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+        "desc": "What have I found?",
+        "warmup": 60,
+        "craftable": true
+        },
+        {
+            "id": "craft.tcat_sack.vegetables_veg.basket.apples_ere",
+            "$priority":5,
+            "Label": "Open A Basket of Vegetables With My Ereb",
+            "actionid": "consider",
+            "reqs": {
+                ".ere": 1,
+                "fatigued":-1,
+                "sack.vegetables": 1
+            },
+            "effects": {
+                "veg.basket.apples": 2
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "StartDescription": "This one is filled with red fruits. \n\n[Considering a Sack of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+            "desc": "What have I found?",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "craft.tcat_sack.vegetables_fruit.misshapen_fet",
+            "$priority":5,
+            "Label": "Open A Basket of Vegetables With My Fet",
+            "actionid": "consider",
+            "reqs": {
+                ".fet": 1,
+                "fatigued":-1,
+                "sack.vegetables": 1
+            },
+            "effects": {
+                "fruit.misshapen": 2
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "StartDescription": "This one is filled with fruits of interesting shapes. \n\n[Considering a Sack of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+            "desc": "What have I found?",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "craft.tcat_sack.vegetables_ pumpkin.amber_pho",
+            "$priority":5,
+            "Label": "Open A Sack of Vegetables With My Phost",
+            "actionid": "consider",
+            "reqs": {
+                ".pho": 1,
+                "fatigued":-1,
+                "sack.vegetables": 1
+            },
+            "effects": {
+                "pumpkin.amber": 2
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "StartDescription": "This one is filled with amber pumpkins. \n\n[Considering a Sack of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+            "desc": "What have I found?",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "craft.tcat_sack.vegetables_ pumpkin.amberx_sha",
+            "$priority":5,
+            "Label": "Open A Sack of Vegetables With My Shapt",
+            "actionid": "consider",
+            "reqs": {
+                ".sha": 1,
+                "fatigued":-1,
+                "sack.vegetables": 1
+            },
+            "effects": {
+                "pumpkin.amber.x": 2
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "StartDescription": "This one is filled with amber pumpkins softer than most. \n\n[Considering a Sack of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+            "desc": "What have I found?",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "craft.tcat_sack.vegetables_ pumpkin.wormy_wis",
+            "$priority":5,
+            "Label": "Open A Sack of Vegetables With My Wist",
+            "actionid": "consider",
+            "reqs": {
+                ".wis": 1,
+                "fatigued":-1,
+                "sack.vegetables": 1
+            },
+            "effects": {
+                "pumpkin.wormy": 2
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "StartDescription": "Are there... something squirming inside these pumpkins?\n\n[Considering a Sack of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+            "desc": "What have I found?",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "craft.tcat_sack.vegetables_veg.basket.leeks_sha",
+            "$priority":5,
+            "Label": "Open A Basket of Vegetables With My Shapt",
+            "actionid": "consider",
+            "reqs": {
+                ".sha": 1,
+                "fatigued":-1,
+                "sack.vegetables": 1
+            },
+            "effects": {
+                "veg.basket.leeks": 2
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "StartDescription": "This one is filled with leeks. \n\n[Considering a Basket of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+            "desc": "What have I found?",
+            "warmup": 60,
+            "craftable": true
+        },
+        { "id": "craft.tcat_veg.basket_veg.basket.onions_ere",
+            "$priority":5,
+            "Label": "Open A Basket of Vegetables With My Ereb",
+            "actionid": "consider",
+            "reqs": {
+                ".ere": 1,
+                "fatigued":-1,
+                "veg.basket": 1
+            },
+            "effects": {
+                "veg.basket.onions": 2
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "StartDescription": "This one is filled with onions. \n\n[Considering a Basket of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+            "desc": "What have I found?",
+            "warmup": 60,
+            "craftable": true
+        },
+        { "id": "craft.tcat_veg.basket_veg.marrow.acrid_met",
+        "$priority":5,
+        "Label": "Open A Basket of Vegetables With My Mettle",
+        "actionid": "consider",
+        "reqs": {
+            ".met": 1,
+            "fatigued":-1,
+            "veg.basket": 1
+        },
+        "effects": {
+            "veg.marrow.acrid": 2
+        },
+        "aspects": {
+            "fatiguing": 1
+        },
+        "StartDescription": "This one is filled with marrows agianst harmony. \n\n[Considering a Basket of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+        "desc": "What have I found?",
+        "warmup": 60,
+        "craftable": true
+    },
+    { "id": "craft.tcat_veg.basket_veg.marrow.dark_tri",
+    "$priority":5,
+    "Label": "Open A Basket of Vegetables With My Trist",
+    "actionid": "consider",
+    "reqs": {
+        ".tri": 1,
+        "fatigued":-1,
+        "veg.basket": 1
+    },
+    "effects": {
+        "veg.marrow.dark": 2
+    },
+    "aspects": {
+        "fatiguing": 1
+    },
+    "StartDescription": "This one is filled with marrows and secrets. \n\n[Considering a Basket of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+    "desc": "What have I found?",
+    "warmup": 60,
+    "craftable": true
+},
+{ "id": "craft.tcat_veg.basket_veg.marrow.golden_pho",
+"$priority":5,
+"Label": "Open A Basket of Vegetables With My Phost",
+"actionid": "consider",
+"reqs": {
+    ".pho": 1,
+    "fatigued":-1,
+    "veg.basket": 1
+},
+"effects": {
+    "veg.marrow.golden": 2
+},
+"aspects": {
+    "fatiguing": 1
+},
+"StartDescription": "This one is filled with marrows of extraordinary beauty... Compared to other marrows that is. \n\n[Considering a Basket of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+"desc": "What have I found?",
+"warmup": 60,
+"craftable": true
+},
+{ "id": "craft.tcat_veg.basket_veg.marrow.pale_wis",
+"$priority":5,
+"Label": "Open A Basket of Vegetables With My Wist",
+"actionid": "consider",
+"reqs": {
+    ".wis": 1,
+    "fatigued":-1,
+    "veg.basket": 1
+},
+"effects": {
+    "veg.marrow.pale": 2
+},
+"aspects": {
+    "fatiguing": 1
+},
+"StartDescription": "This one is filled with pale-colored marrows. \n\n[Considering a Basket of Vegetables with Health consumes it. Considering with a different soul will open it.]",
+"desc": "What have I found?",
+"warmup": 60,
+"craftable": true
+}
+]
+
+}

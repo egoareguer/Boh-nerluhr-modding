@@ -1,0 +1,11 @@
+{
+    "elements": [
+        {
+            "ID": "riddle.nameday",
+            "aspects$add": {
+                "moth": 4,
+                "boost.moth": 4
+            }
+        }
+    ]
+}

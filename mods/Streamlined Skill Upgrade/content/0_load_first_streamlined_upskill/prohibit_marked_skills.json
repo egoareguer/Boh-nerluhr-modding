@@ -1,0 +1,652 @@
+{
+  "recipes": [
+    {
+      "id": "u.skill.marked.weather.rain",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.rain": 1,"skill.markers.weather.rain": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.snow",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.snow": 1,"skill.markers.weather.snow": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.fog",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.fog": 1,"skill.markers.weather.fog": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.numa",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.numa": 1,"skill.markers.weather.numa": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.hail",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.hail": 1,"skill.markers.weather.hail": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.gale",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.gale": 1,"skill.markers.weather.gale": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.sunny",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.sunny": 1,"skill.markers.weather.sunny": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.clouds",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.clouds": 1,"skill.markers.weather.clouds": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.earthquake",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.earthquake": 1,"skill.markers.weather.earthquake": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.weather.storm",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"weather.storm": 1,"skill.markers.weather.storm": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.earthsign",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"earthsign": 1,"skill.markers.earthsign": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.ascendant.harmony",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"ascendant.harmony": 1,"skill.markers.ascendant.harmony": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.music.beguiling",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"music.beguiling": 1,"skill.markers.music.beguiling": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.bittersweet.certainty",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"bittersweet.certainty": 1,"skill.markers.bittersweet.certainty": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.music.cheerful",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"music.cheerful": 1,"skill.markers.music.cheerful": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.confounding.parable",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"confounding.parable": 1,"skill.markers.confounding.parable": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.curious.hunch",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"curious.hunch": 1,"skill.markers.curious.hunch": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.enduring.reflection",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"enduring.reflection": 1,"skill.markers.enduring.reflection": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.music.hive",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"music.hive": 1,"skill.markers.music.hive": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.dreamt",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.dreamt": 1,"skill.markers.mem.dreamt": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.contradiction",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.contradiction": 1,"skill.markers.mem.contradiction": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.fear",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.fear": 1,"skill.markers.mem.fear": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.foresight",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.foresight": 1,"skill.markers.mem.foresight": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.gossip",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.gossip": 1,"skill.markers.mem.gossip": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.hindsight",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.hindsight": 1,"skill.markers.mem.hindsight": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.impulse",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.impulse": 1,"skill.markers.mem.impulse": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.intuition",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.intuition": 1,"skill.markers.mem.intuition": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.loss",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.loss": 1,"skill.markers.mem.loss": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.pattern",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.pattern": 1,"skill.markers.mem.pattern": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.regret",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.regret": 1,"skill.markers.mem.regret": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.revelation",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.revelation": 1,"skill.markers.mem.revelation": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.salt",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.salt": 1,"skill.markers.mem.salt": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.satisfaction",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.satisfaction": 1,"skill.markers.mem.satisfaction": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.scent",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.scent": 1,"skill.markers.mem.scent": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.sight",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.sight": 1,"skill.markers.mem.sight": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.solace",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.solace": 1,"skill.markers.mem.solace": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.sound",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.sound": 1,"skill.markers.mem.sound": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.storm",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.storm": 1,"skill.markers.mem.storm": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.taste",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.taste": 1,"skill.markers.mem.taste": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.mem.touch",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"mem.touch": 1,"skill.markers.mem.touch": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.riddle.nameday",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"riddle.nameday": 1,"skill.markers.riddle.nameday": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.old.moment",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"old.moment": 1,"skill.markers.old.moment": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.music.savage",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"music.savage": 1,"skill.markers.music.savage": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.secret.threshold",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"secret.threshold": 1,"skill.markers.secret.threshold": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.music.thunderskin",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"music.thunderskin": 1,"skill.markers.music.thunderskin": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.torgues.cleansing",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"torgues.cleansing": 1,"skill.markers.torgues.cleansing": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.wild.surmise",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"wild.surmise": 1,"skill.markers.wild.surmise": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.windrumour",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"windrumour": 1,"skill.markers.windrumour": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.winning.move",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"winning.move": 1,"skill.markers.winning.move": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.music.wistful",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"music.wistful": 1,"skill.markers.music.wistful": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.wormwood.dream",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"wormwood.dream": 1,"skill.markers.wormwood.dream": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.didumos",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"didumos": 1,"skill.markers.didumos": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.name.earthquake",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"name.earthquake": 1,"skill.markers.name.earthquake": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.forbidden.epic",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"forbidden.epic": 1,"skill.markers.forbidden.epic": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.horizonsight",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"horizonsight": 1,"skill.markers.horizonsight": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.invincible.audacity",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"invincible.audacity": 1,"skill.markers.invincible.audacity": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.occult.scrap",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"occult.scrap": 1,"skill.markers.occult.scrap": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.old.wound",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"old.wound": 1,"skill.markers.old.wound": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.windinwaiting",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"windinwaiting": 1,"skill.markers.windinwaiting": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.unde",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.unde": 1,"skill.markers.numen.unde": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.feas",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.feas": 1,"skill.markers.numen.feas": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.bala",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.bala": 1,"skill.markers.numen.bala": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.conf",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.conf": 1,"skill.markers.numen.conf": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.loop",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.loop": 1,"skill.markers.numen.loop": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.alte",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.alte": 1,"skill.markers.numen.alte": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.oldl",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.oldl": 1,"skill.markers.numen.oldl": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.bell",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.bell": 1,"skill.markers.numen.bell": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.secr",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.secr": 1,"skill.markers.numen.secr": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.asce",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.asce": 1,"skill.markers.numen.asce": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.desc",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.desc": 1,"skill.markers.numen.desc": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.thre",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.thre": 1,"skill.markers.numen.thre": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    },
+    {
+      "id": "u.skill.marked.numen.worl",
+      "actionid": "consider",
+      "reqs": {"skill": 1,"ability": 1,"lesson": 1,"numen.worl": 1,"skill.markers.numen.worl": 1},
+      "label":"Already imprinted...",
+      "startdescription": "This memory is already absorbed into my knowledge. [You can only use a specific Memory to improve the Skill once.]",
+      "warmup": 0,
+      "craftable": true
+    }
+  ]
+}

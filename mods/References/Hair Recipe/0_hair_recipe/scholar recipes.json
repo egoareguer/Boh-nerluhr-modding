@@ -1,0 +1,14 @@
+{"recipes": [
+    {	"id":"craft.scholar.transformations.liberations_remains_human.hair_moth",	
+    "Label": "Craft: Human Hair",	
+    "actionid": "library.*",	
+    "reqs": {"ability":1,"s.transformations.liberations":1,	"remains":1,	"moth":	10	},	
+    "effects": {	"human.hair":1	},	
+    "aspects":{"fatiguing":1},	
+    "StartDescription": "Transform remains into something of interest to crude sorcerers. \n\n[Transformations & Liberations with Scholar-level <sprite name=moth>, plus Remains, creates Human Hair.]",	
+    "Desc": "[With Scholar-level Grail, Human Hair can be woven into something almost living.]"	,
+    "warmup":90, 
+    "craftable":true}
+]
+}
+    

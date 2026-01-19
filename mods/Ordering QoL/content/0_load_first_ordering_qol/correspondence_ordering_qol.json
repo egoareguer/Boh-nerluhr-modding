@@ -1,0 +1,864 @@
+{
+	"recipes": [
+	{
+		"id": "_write.order", "actionid": "*.consider", "craftable":true, "warmup":0, "reqs":{"encaustum":-1}
+	},
+
+
+	{
+		"id": "write.order.ch.glue.multiple", "label": "Order 5 Glue (2/6)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order Glue from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.glue","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":30,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.glue", "label": "Order Glue (6d)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order Glue from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.glue","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.witchworms.desiccated.multiple", "label": "Order 5 Desiccated Witchworms (50/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Desiccated Witch-Worms from T.R.N. Limited. The high price reflects the value of their relationship with the Suppression Bureau, who discourage trade in materials with this level of oneiric hazard.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.witchworms.desiccated","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":600,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.witchworms.desiccated",
+		"label": "Order Desiccated Witchworms (10/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order Desiccated Witch-Worms from T.R.N. Limited. The high price reflects the value of their relationship with the Suppression Bureau, who discourage trade in materials with this level of oneiric hazard.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.witchworms.desiccated","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":120,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.arsenic.multiple", "label": "Order 5 Arsenic (15/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Arsenic from T.R.N. Limited, who will helpfully circumvent the requirements of the Pharmacy Act.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.arsenic","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":180,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.arsenic",
+		"label": "Order Arsenic (3/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order Arsenic from T.R.N. Limited, who will helpfully circumvent the requirements of the Pharmacy Act.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.arsenic","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":36,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.oil.umbrous.multiple", "label": "Order 5 Umbrous Oil (7/6)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Cans of Umbrous Oil from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.oil.moon","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":90,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.oil.umbrous",
+		"label": "Order Umbrous Oil (1/6)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Can of Umbrous Oil from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.oil.moon","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":18,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.oil.oscillate.multiple", "label": "Order 5 Oscillate Oil (7/6)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Cans of Oscillate Oil from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.oil.moth","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":90,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.oil.oscillate",
+		"label": "Order Oscillate Oil (1/6)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Can of Oscillate Oil from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.oil.moth","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":18,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.oil.scintillate.multiple", "label": "Order 5 Scintillate Oil (7/6)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1}, 
+		"startdescription": "Order 5 Cans of Scintillate Oil from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.oil.forge","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":90,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.oil.scintillate",
+		"label": "Order Scintillate Oil (1/6)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Can of Scintillate Oil from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.oil.forge","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":18,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.jerry.paraffin.multiple", "label": "Order 5 Paraffin (5/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Jerries of Paraffin from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.jerry.paraffin","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.jerry.paraffin", "label": "Order Paraffin (1/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Jerry of Paraffin from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.jerry.paraffin","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":24,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.jerry.petrol.multiple", "label": "Order 5 Petrol (5/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Jerries of Petrol from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.jerry.petrol","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.jerry.petrol", "label": "Order Petrol (1/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Jerry of Petrol from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.jerry.petrol","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":24,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.jerry.kerosene.multiple", "label": "Order 5 Kerosene (10/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Jerries of Kerosene from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.jerry.kerosene","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":120,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.jerry.kerosene", "label": "Order Kerosene (2/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Jerry of Kerosene from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.jerry.kerosene","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":24,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.wire.copper.multiple", "label": "Order 5 Copper Wire (10/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Spools of Copper Wire from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.wire.copper","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":120,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.wire.copper",
+		"label": "Order Copper Wire (2/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Spool of Copper Wire from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.wire.copper","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":24,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.paper.quire.multiple", "label":"Order 5 Quires of Paper (2/6)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Quires of Paper from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.quire.paper", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.ch.quire.paper",
+		"label": "Order a Quire of Paper (6d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Quire of Paper from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.quire.paper","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.parchment.nivine.multiple", "label": "Order 5 Nivine Parchment (15/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 quires of Nivine Parchment from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.parchment.nivine","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":180,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.parchment.nivine",
+		"label": "Order Nivine Parchment (3/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a quire of Nivine Parchment from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.parchment.nivine","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":36,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.bottle.armagnac.multiple", "label": "Order 5 Armagnac (35/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Armagnac d'Ys from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.armagnac","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":420,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.bottle.armagnac",
+		"label": "Order Armagnac (7/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Bottle of Armagnac d'Ys from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.armagnac","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":84,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.bottle.roscraggan.multiple", "label": "Order 5 Roscraggan Whisky (25/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Roscraggan Whisky from T.R.N. Limited.",	"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.roscraggan","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":300,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.bottle.roscraggan",
+		"label": "Order Roscraggan Whisky (5/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Bottle of Roscraggan Whisky from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.roscraggan","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.bottle.strathcoyne.multiple", "label": "Order 5 Strathcoyne Whisky (25/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Strathcoyne Whisky from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.strathcoyne","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":300,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.bottle.strathcoyne",
+		"label": "Order Strathcoyne Whisky (5/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Bottle of Strathcoyne Whisky from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.strathcoyne","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.bottle.sloegin.multiple", "label": "Order 5 Sloe Gin (25/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Sloe Gin from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.sloegin","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":300,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.bottle.sloegin", "label": "Order Sloe Gin (5/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Bottle of Sloe Gin from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.sloegin","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.pottery.scrumpy.multiple", "label": "Order 5 Scrumpy (8/4)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Scrumpy from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.pottery.scrumpy","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":100,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.pottery.scrumpy", "label": "Order Scrumpy (1/8)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Bottle of Scrumpy from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.bottle.sloegin","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":20,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.bottle.lambig.multiple", "label": "Order 5 Lambig (35/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Lambig Broceliande from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.lambig","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":420,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.bottle.lambig",
+		"label": "Order Lambig (7/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Bottle of Lambig Broceliande from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.lambig","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":84,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.bottle.raveline.multiple", "label": "Order 5 Domaine Raveline Wine (35/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Domaine Raveline from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.raveline","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":420,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.bottle.raveline",
+		"label": "Order Domaine Raveline Wine (7/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Bottle of Domaine Raveline from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.raveline","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":84,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.bottle.jannings.multiple", "label": "Order 5 Schloss Jannings (25/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Schloss Jannings wine from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.jannings","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":300,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.bottle.jannings",
+		"label": "Order Schloss Jannings (5/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Bottle of Schloss Jannings wine from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.jannings","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.bottle.dandelionwine.multiple", "label": "Order 5 Dandelion Wine (25/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Bottles of Dandelion Wine from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.dandelionwine","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":300,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.bottle.dandelionwine", "label": "Order Dandelion Wine (5/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 1 Bottle of Dandelion Wine from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.bottle.dandelionwine","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.packet.cocoa.multiple", "label": "Order 5 Drinking Cocoa (7/6)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 packets of T.R.N. Limited's notorious drinking cocoa.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.packet.cocoa","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":90,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.packet.cocoa",
+		"label": "Order Drinking Cocoa (1/6)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a packet of T.R.N. Limited's notorious drinking cocoa.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.packet.cocoa","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":18,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.coffee.dawnlion.multiple", "label": "Order 5 Dawnlion Coffee (5/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Packets of Dawnlion Coffee from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.coffee.dawnlion","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.coffee.dawnlion",
+		"label": "Order Dawnlion Coffee (1/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Packet of Dawnlion Coffee from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.coffee.dawnlion","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":12,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.coffee.eveningisles.multiple", "label": "Order 5 Evening Isles Coffee (5/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Packets of Evening Isles Coffee from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.coffee.eveningisles","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.coffee.eveningisles",
+		"label": "Order Evening Isles Coffee (1/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Packet of Evening Isles Coffee from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.coffee.eveningisles","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":12,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.tea.lapsang.multiple", "label":"Order 5 Lapsang Tea (5/-)", "inherits":"_write.order", "reqs":{"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Packets of Lapsang Souchong Tea from Cater & Hero.","desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.tea.lapsang","filter":"form.order.ch","level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.tea.lapsang",
+		"label": "Order Lapsang Tea (1/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Packet of Lapsang Souchong Tea from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.tea.lapsang","filter":"form.order.ch","level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":12,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.tea.assam.multiple", "label": "Order 5 Assam Tea (5/-)", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order 5 Packets of Assam Tea from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.tea.assam","filter":"form.order.ch", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.ch.tea.assam",
+		"label": "Order Assam Tea (1/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Packet of Assam Tea from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.tea.assam","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":12,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.potatoes.multiple", "label":"Order 5 Potatoes (1/3)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Potatoes from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.potatoes", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":15, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.ch.potatoes",
+		"label": "Order Potatoes (3d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order Potatoes from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.potatoes","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":3,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.mushrooms.multiple", "label":"Order 5 Mushrooms (1/3)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Mushrooms from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.mushrooms", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":15, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.ch.mushrooms", "label":"Order Mushrooms (3d)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order Mushrooms from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.mushrooms", "filter":"form.order.ch", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":3, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.veg.basket.apples.multiple", "label":"Order 5 Baskets of Vegetables (5/-)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription":"Order 5 Baskets of Vegetables from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.veg.basket", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":60, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.ch.veg.basket.apples", "label":"Order Basket of Vegetables (1/-)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription":"Order a Basket of Vegetables from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.veg.basket", "filter":"form.order.ch", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":12, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.trn.pumpkin.amber.soft.multiple", "label":"Order 5 Soft Amber Pumpkins (15/-)", "inherits":"_write.order", "reqs":{"form.order.trn":1, "ink":1},
+		"startdescription": "Order 5 Soft Amber Pumpkins from T.R.N. Limited. The higher price reflects the value of their relationship with the Suppression Bureau, who discourage trade in materials with this level of oneiric hazard.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.pumpkin.amber.soft", "filter":"form.order.trn", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.trn", "level":180, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.trn", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.trn.pumpkin.amber.soft", "label":"Order Soft Amber Pumpkin (3/-)", "inherits":"_write.order", "reqs":{"form.order.trn":1, "ink":1},
+		"startdescription": "Order a Soft Amber Pumpkin from T.R.N. Limited. The higher price reflects the value of their relationship with the Suppression Bureau, who discourage trade in materials with this level of oneiric hazard.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.pumpkin.amber.soft", "filter":"form.order.trn", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.trn", "level":36, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.trn", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.trn.pumpkin.amber.multiple", "label":"Order 5 Amber Pumpkins (5/-)", "inherits":"_write.order", "reqs":{"form.order.trn":1, "ink":1},
+		"startdescription": "Order 5 Amber Pumpkins from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.pumpkin.amber", "filter":"form.order.trn", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.trn", "level":60, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.trn", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.trn.pumpkin.amber", "label":"Order Amber Pumpkin (1/-)", "inherits":"_write.order", "reqs":{"form.order.trn":1, "ink":1},
+		"startdescription": "Order an Amber Pumpkin from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.pumpkin.amber", "filter":"form.order.trn", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.trn", "level":12, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.trn", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.trn.plums.multiple", "label":"Order 5 Plums (2/6)", "inherits":"_write.order", "reqs":{"form.order.trn":1, "ink":1},
+		"startdescription": "Order 5 Plums from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.", 
+		"mutations":[{"mutate":"orderplaced.plums", "filter":"form.order.trn", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.trn", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.trn", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.trn.plums",
+		"label": "Order Plums (6d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order Plums from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.plums","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":6,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.veg.basket.apples.multiple", "label":"Order 5 Apples (2/6)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription":"Order 5 Baskets of Apples from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.veg.basket.apples", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.ch.veg.basket.apples", "label":"Order Apples (6d)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription":"Order a Basket of Apples from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.veg.basket.apples", "filter":"form.order.ch", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":6, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.rosehips.multiple", "label":"Order 5 Rosehips (1/3)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Rosehips from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.rosehips", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":15, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.ch.rosehips", "label":"Order Rosehips (3d)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order Rosehips from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.rosehips", "filter":"form.order.ch", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":3, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.blackberries.multiple", "label":"Order 5 Blackberries (1/3)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Blackberries from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.blackberries", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":15, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.ch.blackberries", "label":"Order Blackberries (3d)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order Blackberries from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.blackberries", "filter":"form.order.ch", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":3, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+
+	{
+		"id": "write.order.trn.cordial.elderflower.multiple", "label": "Order 5 Elderflower Cordials (5/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order 5 Elderflower Cordials from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.cordial.elderflower","filter":"form.order.trn", "level":5,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":60,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.cordial.elderflower", "label": "Order Elderflower Cordial (1/8)", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order an Elderflower Cordial from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.cordial.elderflower","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":20,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.egg.chicken.multiple", "label":"Order 5 Hen's Eggs (2/6)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Hen's Eggs from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.egg.chicken", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.ch.egg.chicken", "label":"Order Hen's Egg (6d)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order a Hen's Egg from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.egg.chicken", "filter":"form.order.ch", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":6, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.ham.multiple", "label":"Order 5 Ham (2/6)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1}, 
+		"startdescription": "Order 5 Cans of Ham from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.ham.canned", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.ch.ham",
+		"label": "Order Ham (6d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order a Can of Ham from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.ham.canned","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.trn.pheasant.multiple", "label":"Order 5 Pheasants (2/6)", "inherits":"_write.order", "reqs":{"form.order.trn":1, "ink":1},
+		"startdescription": "Order 5 Pheasants from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.pheasant", "filter":"form.order.trn", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.trn", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.trn", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.trn.pheasant",
+		"label": "Order Pheasant (6d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Pheasant from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.pheasant","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":6,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.trn.beef.multiple", "label":"Order 5 Beef (5/-)", "inherits":"_write.order", "reqs": {"form.order.trn":1, "ink":1},
+		"startdescription": "Order 5 Joints of Beef from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.beef", "filter":"form.order.trn", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.trn", "level":60, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.trn", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.trn.beef",
+		"label": "Order Beef (1/-)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order a Joint of Beef from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.beef","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":12,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.mackerel.multiple", "label":"Order 5 Mackerel (2/6)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription":"Order 5 Tins of Mackerel from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.mackerel", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.ch.mackerel", "label":"Order Mackerel (6d)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription":"Order a Tin of Mackerel from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.mackerel", "filter":"form.order.ch", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":6, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.pilchard.multiple", "label":"Order 5 Pilchard (2/6)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription":"Order 5 Tins of Pilchard from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.pilchard", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id":"write.order.ch.pilchard", "label":"Order Pilchard (6d)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription":"Order a Tin of Pilchards from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.pilchard", "filter":"form.order.ch", "level":1, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":6, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.flour.multiple", "label":"Order 5 Flour (1/3)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Flour from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.flour", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":15, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.ch.flour",
+		"label": "Order Flour (3d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order Flour from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.flour","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":3,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.butter.multiple", "label":"Order 5 Butter (1/3)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Butter from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.butter", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":15, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.ch.butter",
+		"label": "Order Butter (3d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order Butter from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.butter","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":3,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.dripping.multiple", "label":"Order 5 Dripping (2/6)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Dripping from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.dripping", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.ch.dripping",
+		"label": "Order Dripping (6d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order Dripping from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.dripping","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.milk.multiple", "label":"Order 5 Milk (1/3)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Milk from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.milk", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":15, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.ch.milk",
+		"label": "Order Milk (3d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order Milk from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.milk","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":3,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.ch.sugar.multiple", "label":"Order 5 Sugar (2/6)", "inherits":"_write.order", "reqs":{"form.order.ch":1, "ink":1},
+		"startdescription": "Order 5 Sugar from Cater & Hero.", "desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.sugar", "filter":"form.order.ch", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.ch", "level":30, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.ch", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.ch.sugar",
+		"label": "Order Sugar (6d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Order Sugar from Cater & Hero.",
+		"desc":"Scratch tiny symbols on the flimsy form.",
+		"mutations":[{"mutate":"orderplaced.sugar","filter":"form.order.ch", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":6,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.ch","level":1,"additive":false}]
+	},
+
+	{
+		"id":"write.order.trn.almonds.multiple", "label":"Order 5 Almonds (1/3)", "inherits":"_write.order", "reqs": {"form.order.trn":1, "ink":1},
+		"startdescription": "Order 5 Almonds from T.R.N. Limited.", "desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.almonds", "filter":"form.order.trn", "level":5, "additive":true},
+		{"mutate":"cost.pence", "filter":"form.order.trn", "level":15, "additive":true},
+		{"mutate":"post.ready", "filter":"form.order.trn", "level":1, "additive":false}]
+	},
+	{
+		"id": "write.order.trn.almonds",
+		"label": "Order Almonds (3d)",
+		"inherits":"_write.order",
+		"reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Order Almonds from T.R.N. Limited.",
+		"desc":"Carefully mark the creamy paper.",
+		"mutations":[{"mutate":"orderplaced.almonds","filter":"form.order.trn", "level":1,"additive":true},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":3,"additive":true},
+		{"mutate":"post.ready","filter":"form.order.trn","level":1,"additive":false}]
+	},
+
+	{
+		"id": "write.order.ch.reset", "label": "Begin Again", "inherits":"_write.order", "reqs": {"form.order.ch":1,"ink":1},
+		"startdescription": "Carefully strike out the orders on the C&H form, and begin again -", "warmup":0,
+		"mutations":[{"mutate":"orderplaced.*","filter":"form.order.ch", "level":-1,"additive":false},
+		{"mutate":"cost.pence","filter":"form.order.ch","level":-1,"additive":false},
+		{"mutate":"post.ready","filter":"form.order.ch","level":-1,"additive":false}]
+	},
+	{
+		"id": "write.order.trn.reset", "label": "Begin Again", "inherits":"_write.order", "reqs": {"form.order.trn":1,"ink":1},
+		"startdescription": "Carefully strike out the orders on the T.R.N. form, and begin again -", "warmup":0,
+		"mutations":[{"mutate":"orderplaced.*","filter":"form.order.trn", "level":-1,"additive":false},
+		{"mutate":"cost.pence","filter":"form.order.trn","level":-1,"additive":false},
+		{"mutate":"post.ready","filter":"form.order.trn","level":-1,"additive":false}]
+	}
+    ]
+}
+    

@@ -1,0 +1,509 @@
+{
+  "elements": [
+    {"id": "skill.markers.remove.marker", "ishidden":true, "isaspect":true},
+    {
+      "id": "skill.markers.weather.rain",
+      "icon": "weather.rain",
+      "label": "Mark - Rain",
+      "desc": "Rain - 2<sprite name=grail> 2<sprite name=nectar>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.rain","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.snow",
+      "icon": "weather.snow",
+      "label": "Mark - Snow",
+      "desc": "Snow - 3<sprite name=sky> 3<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.snow","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.fog",
+      "icon": "weather.fog",
+      "label": "Mark - Fog",
+      "desc": "Fog - 3<sprite name=knock> 3<sprite name=moon>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.fog","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.numa",
+      "icon": "weather.numa",
+      "label": "Mark - Nume-Brume",
+      "desc": "Nume-Brume - 5<sprite name=knock> 5<sprite name=moon> 5<sprite name=rose> 5<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.numa","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.hail",
+      "icon": "weather.hail",
+      "label": "Mark - Hail",
+      "desc": "Hail - 3<sprite name=edge> 3<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.hail","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.gale",
+      "icon": "weather.gale",
+      "label": "Mark - Gale",
+      "desc": "Gale - 3<sprite name=heart> 3<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.gale","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.sunny",
+      "icon": "weather.sunny",
+      "label": "Mark - Sunny",
+      "desc": "Sunny - 2<sprite name=lantern> 2<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.sunny","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.clouds",
+      "icon": "weather.clouds",
+      "label": "Mark - Clouds",
+      "desc": "Clouds - 1<sprite name=moon> 1<sprite name=moth>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.clouds","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.earthquake",
+      "icon": "weather.earthquake",
+      "label": "Mark - Earthquake",
+      "desc": "Earthquake - 5<sprite name=edge> 5<sprite name=scale>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.earthquake","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.weather.storm",
+      "icon": "mem.storm",
+      "label": "Mark - Storm",
+      "desc": "Storm - 4<sprite name=heart> 4<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.weather.storm","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.music.beguiling",
+      "icon": "music.beguiling",
+      "label": "Mark - Beguiling Melody",
+      "desc": "Beguiling Melody - 2<sprite name=grail> 2<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.music.beguiling","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.bittersweet.certainty",
+      "icon": "bittersweet.certainty",
+      "label": "Mark - Bittersweet Certainty",
+      "desc": "Bittersweet Certainty - 2<sprite name=winter> 1<sprite name=lantern>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.bittersweet.certainty","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.music.cheerful",
+      "icon": "music.cheerful",
+      "label": "Mark - Cheerful Ditty",
+      "desc": "Cheerful Ditty - 2<sprite name=heart> 1<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.music.cheerful","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.confounding.parable",
+      "icon": "confounding.parable",
+      "label": "Mark - Confounding Parable",
+      "desc": "Confounding Parable - 2<sprite name=moon> 2<sprite name=sky> 2<sprite name=rose>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.confounding.parable","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.dreamt",
+      "icon": "mem.dreamt",
+      "label": "Mark - Memory: A Stolen Secret",
+      "desc": "Memory: A Stolen Secret - 2<sprite name=moon> 1<sprite name=knock>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.dreamt","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.contradiction",
+      "icon": "mem.contradiction",
+      "label": "Mark - Memory: Contradiction",
+      "desc": "Memory: Contradiction - 2<sprite name=edge> 1<sprite name=moon>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.contradiction","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.fear",
+      "icon": "mem.fear",
+      "label": "Mark - Memory: Fear",
+      "desc": "Memory: Fear - 2<sprite name=scale> 1<sprite name=edge>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.fear","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.foresight",
+      "icon": "mem.foresight",
+      "label": "Mark - Memory: Foresight",
+      "desc": "Memory: Foresight - 2<sprite name=forge> 1<sprite name=lantern>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.foresight","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.gossip",
+      "icon": "mem.gossip",
+      "label": "Mark - Memory: Gossip",
+      "desc": "Memory: Gossip - 2<sprite name=rose> 1<sprite name=grail>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.gossip","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.hindsight",
+      "icon": "mem.hindsight",
+      "label": "Mark - Memory: Hindsight",
+      "desc": "Memory: Hindsight - 2<sprite name=winter> 1<sprite name=scale>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.hindsight","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.impulse",
+      "icon": "mem.impulse",
+      "label": "Mark - Memory: Impulse",
+      "desc": "Memory: Impulse - 2<sprite name=moth> 1<sprite name=nectar>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.impulse","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.intuition",
+      "icon": "mem.intuition",
+      "label": "Mark - Memory: Intuition",
+      "desc": "Memory: Intuition - 2<sprite name=moon> 2<sprite name=rose>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.intuition","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.loss",
+      "icon": "mem.loss",
+      "label": "Mark - Memory: Loss",
+      "desc": "Memory: Loss - 1<sprite name=edge> 1<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.loss","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.pattern",
+      "icon": "mem.pattern",
+      "label": "Mark - Memory: Pattern",
+      "desc": "Memory: Pattern - 2<sprite name=knock> 1<sprite name=forge>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.pattern","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.regret",
+      "icon": "mem.regret",
+      "label": "Mark - Memory: Regret",
+      "desc": "Memory: Regret - 2<sprite name=winter> 1<sprite name=forge>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.regret","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.revelation",
+      "icon": "mem.revelation",
+      "label": "Mark - Memory: Revelation",
+      "desc": "Memory: Revelation - 2<sprite name=lantern>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.revelation","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.salt",
+      "icon": "mem.salt",
+      "label": "Mark - Memory: Salt",
+      "desc": "Memory: Salt - 1<sprite name=knock> 1<sprite name=moon> 1<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.salt","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.satisfaction",
+      "icon": "mem.satisfaction",
+      "label": "Mark - Memory: Satisfaction",
+      "desc": "Memory: Satisfaction - 2<sprite name=grail> 1<sprite name=heart>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.satisfaction","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.scent",
+      "icon": "mem.scent",
+      "label": "Mark - Memory: Scent",
+      "desc": "Memory: Scent - 1<sprite name=nectar>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.scent","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.sight",
+      "icon": "mem.sight",
+      "label": "Mark - Memory: Sight",
+      "desc": "Memory: Sight - 1<sprite name=lantern>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.sight","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.solace",
+      "icon": "mem.solace",
+      "label": "Mark - Memory: Solace",
+      "desc": "Memory: Solace - 2<sprite name=heart> 1<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.solace","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.sound",
+      "icon": "mem.sound",
+      "label": "Mark - Memory: Sound",
+      "desc": "Memory: Sound - 1<sprite name=heart>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.sound","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.storm",
+      "icon": "mem.storm",
+      "label": "Mark - Memory: Storm",
+      "desc": "Memory: Storm - 2<sprite name=heart> 2<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.storm","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.taste",
+      "icon": "mem.taste",
+      "label": "Mark - Memory: Taste",
+      "desc": "Memory: Taste - 1<sprite name=grail>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.taste","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.mem.touch",
+      "icon": "mem.touch",
+      "label": "Mark - Memory: Touch",
+      "desc": "Memory: Touch - 1<sprite name=forge>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.mem.touch","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.riddle.nameday",
+      "icon": "riddle.nameday",
+      "label": "Mark - Nameday Riddle",
+      "desc": "Nameday Riddle - 3<sprite name=moth> 2<sprite name=knock>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.riddle.nameday","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.old.moment",
+      "icon": "old.moment",
+      "label": "Mark - Old Moment",
+      "desc": "Old Moment - 4<sprite name=scale> 2<sprite name=lantern> 2<sprite name=moth>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.old.moment","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.music.savage",
+      "icon": "music.savage",
+      "label": "Mark - Savage Hymn",
+      "desc": "Savage Hymn - 2<sprite name=scale> 2<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.music.savage","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.secret.threshold",
+      "icon": "secret.threshold",
+      "label": "Mark - Secret Threshold",
+      "desc": "Secret Threshold - 2<sprite name=knock> 1<sprite name=rose>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.secret.threshold","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.music.thunderskin",
+      "icon": "music.thunderskin",
+      "label": "Mark - Thunderskin's Paean",
+      "desc": "Thunderskin's Paean - 4<sprite name=heart> 1<sprite name=grail> 1<sprite name=scale>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.music.thunderskin","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.torgues.cleansing",
+      "icon": "torgues.cleansing",
+      "label": "Mark - Torgue's Cleansing",
+      "desc": "Torgue's Cleansing - 2<sprite name=edge>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.torgues.cleansing","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.wild.surmise",
+      "icon": "wild.surmise",
+      "label": "Mark - Wild Surmise",
+      "desc": "Wild Surmise - 3<sprite name=lantern> 3<sprite name=moth> 3<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.wild.surmise","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.windrumour",
+      "icon": "windrumour",
+      "label": "Mark - Wind-Rumour",
+      "desc": "Wind-Rumour - 2<sprite name=sky> 1<sprite name=heart>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.windrumour","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.winning.move",
+      "icon": "winning.move",
+      "label": "Mark - Winning Move",
+      "desc": "Winning Move - 3<sprite name=edge>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.winning.move","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.music.wistful",
+      "icon": "music.wistful",
+      "label": "Mark - Wistful Air",
+      "desc": "Wistful Air - 2<sprite name=rose> 2<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.music.wistful","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.ascendant.harmony",
+      "icon": "ascendant.harmony",
+      "label": "Mark - Ascendant Harmony",
+      "desc": "Ascendant Harmony - 4<sprite name=sky> 2<sprite name=lantern>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.ascendant.harmony","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.curious.hunch",
+      "icon": "curious.hunch",
+      "label": "Mark - Curious Hunch",
+      "desc": "Curious Hunch - 4<sprite name=knock> 3<sprite name=heart> 3<sprite name=lantern> 3<sprite name=moth>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.curious.hunch","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.didumos",
+      "icon": "didumos",
+      "label": "Mark - Didumos",
+      "desc": "Didumos - 6<sprite name=sky> 3<sprite name=knock> 2<sprite name=lantern> 2<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.didumos","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.earthsign",
+      "icon": "earthsign",
+      "label": "Mark - Earth-sign",
+      "desc": "Earth-sign - 2<sprite name=nectar> 2<sprite name=scale>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.earthsign","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.name.earthquake",
+      "icon": "name.earthquake",
+      "label": "Mark - Earthquake Name",
+      "desc": "Earthquake Name - 6<sprite name=scale>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.name.earthquake","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.enduring.reflection",
+      "icon": "enduring.reflection",
+      "label": "Mark - Enduring Reflection",
+      "desc": "Enduring Reflection - 3<sprite name=rose> 1<sprite name=heart> 1<sprite name=knock>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.enduring.reflection","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.forbidden.epic",
+      "icon": "forbidden.epic",
+      "label": "Mark - Forbidden Epic",
+      "desc": "Forbidden Epic - 6<sprite name=edge> 4<sprite name=moon> 4<sprite name=rose>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.forbidden.epic","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.music.hive",
+      "icon": "music.hive",
+      "label": "Mark - Hive's Lament",
+      "desc": "Hive's Lament - 4<sprite name=nectar> 2<sprite name=moth> 2<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.music.hive","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.horizonsight",
+      "icon": "horizonsight",
+      "label": "Mark - Horizon-Sight",
+      "desc": "Horizon-Sight - 4<sprite name=rose>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.horizonsight","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.invincible.audacity",
+      "icon": "invincible.audacity",
+      "label": "Mark - Invincible Audacity",
+      "desc": "Invincible Audacity - 6<sprite name=edge> 3<sprite name=forge> 3<sprite name=lantern>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.invincible.audacity","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.occult.scrap",
+      "icon": "occult.scrap",
+      "label": "Mark - Occult Scrap",
+      "desc": "Occult Scrap - 2<sprite name=knock> 2<sprite name=moth> 2<sprite name=rose>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.occult.scrap","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.old.wound",
+      "icon": "old.wound",
+      "label": "Mark - Old Wound",
+      "desc": "Old Wound - 3<sprite name=winter> 2<sprite name=moon> 2<sprite name=edge>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.old.wound","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.windinwaiting",
+      "icon": "windinwaiting",
+      "label": "Mark - Wind-in-Waiting",
+      "desc": "Wind-in-Waiting - 6<sprite name=sky> 3<sprite name=grail> 3<sprite name=moth> 3<sprite name=scale>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.windinwaiting","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.wormwood.dream",
+      "icon": "wormwood.dream",
+      "label": "Mark - Wormwood Dream",
+      "desc": "Wormwood Dream - 6<sprite name=moon> 6<sprite name=winter> 3<sprite name=edge>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.wormwood.dream","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.unde",
+      "icon": "numen.unde",
+      "label": "Mark - Numen: a Final Understanding",
+      "desc": "Numen: a Final Understanding - 5<sprite name=rose> 5<sprite name=sky> 5<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.unde","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.feas",
+      "icon": "numen.feas",
+      "label": "Mark - Numen: an Irresistible Feast",
+      "desc": "Numen: an Irresistible Feast - 5<sprite name=edge> 5<sprite name=grail> 5<sprite name=nectar>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.feas","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.bala",
+      "icon": "numen.bala",
+      "label": "Mark - Numen: Back Into Balance",
+      "desc": "Numen: Back Into Balance - 5<sprite name=heart> 5<sprite name=sky> 5<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.bala","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.conf",
+      "icon": "numen.conf",
+      "label": "Mark - Numen: Inescapable Confinement",
+      "desc": "Numen: Inescapable Confinement - 5<sprite name=knock> 5<sprite name=scale> 5<sprite name=winter>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.conf","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.loop",
+      "icon": "numen.loop",
+      "label": "Mark - Numen: Loopholes",
+      "desc": "Numen: Loopholes - 5<sprite name=knock> 5<sprite name=moon> 5<sprite name=moth>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.loop","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.alte",
+      "icon": "numen.alte",
+      "label": "Mark - Numen: Merciless Alteration",
+      "desc": "Numen: Merciless Alteration - 5<sprite name=edge> 5<sprite name=forge> 5<sprite name=grail>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.alte","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.oldl",
+      "icon": "numen.oldl",
+      "label": "Mark - Numen: That Old Lost Music",
+      "desc": "Numen: That Old Lost Music - 5<sprite name=rose> 5<sprite name=scale> 5<sprite name=sky>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.oldl","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.bell",
+      "icon": "numen.bell",
+      "label": "Mark - Numen: the Bells of Ys",
+      "desc": "Numen: the Bells of Ys - 5<sprite name=edge> 5<sprite name=forge> 5<sprite name=rose>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.bell","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.secr",
+      "icon": "numen.secr",
+      "label": "Mark - Numen: the Great Counterfeit",
+      "desc": "Numen: the Great Counterfeit - 5<sprite name=lantern> 5<sprite name=moon> 5<sprite name=nectar>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.secr","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.asce",
+      "icon": "numen.asce",
+      "label": "Mark - Numen: the Paths of the Sun",
+      "desc": "Numen: the Paths of the Sun - 5<sprite name=forge> 5<sprite name=knock> 5<sprite name=lantern>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.asce","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.desc",
+      "icon": "numen.desc",
+      "label": "Mark - Numen: the Sun's Weakness",
+      "desc": "Numen: the Sun's Weakness - 5<sprite name=grail> 5<sprite name=lantern> 5<sprite name=moth>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.desc","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.thre",
+      "icon": "numen.thre",
+      "label": "Mark - Numen: Three Rules",
+      "desc": "Ascendant - 5<sprite name=heart> 5<sprite name=moth> 5<sprite name=scale>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.thre","morpheffect":"mutate", "level":0}}
+    },
+    {
+      "id": "skill.markers.numen.worl",
+      "icon": "numen.worl",
+      "label": "Mark - Numen: Weaving the World",
+      "desc": "Numen: Weaving the World - 5<sprite name=heart> 5<sprite name=moon> 5<sprite name=nectar>.",
+      "xtriggers":{"skill.markers.remove.marker":{"id":"skill.markers.numen.worl","morpheffect":"mutate", "level":0}}
+    }
+  ]
+}

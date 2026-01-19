@@ -1,0 +1,8 @@
+{
+    "elements": [
+		{
+			"id": "azoth",
+			"aspects$add": {"device":1,"tool":1}
+		}
+    ]
+}

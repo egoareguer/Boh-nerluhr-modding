@@ -1,0 +1,22 @@
+{
+    "elements": [
+		{"ID":"bucket.mop",
+    "Label": "Mop and Bucket",
+    "Desc": "Galvanised steel, enriched with the stains of a dozen years of methodical mopping.",
+    "inherits": "_comfort",
+    "audio":"LargeLiquid",
+    "aspects":{
+        "tool":1,
+        "fabric":1,
+        "heart":1,
+        "boost.heart":1},
+    "xtriggers":{"scrutiny":[
+              {"id":"mem.sight",
+                "morpheffect":"spawn",
+                "level":1},
+              {"id":"bucket.mop",
+                "morpheffect":"transform"}]},
+        "xexts":{"scrutiny":"Very, very, very faintly, even after all these years, the unmistakable yeasty marshy odour of Prophet-slime. "}}
+
+    ]
+}
